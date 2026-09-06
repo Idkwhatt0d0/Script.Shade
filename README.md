@@ -1,6 +1,5 @@
 # ScriptShade Website
 
-GitHub Pages-ready static website for ScriptShade.
 
 ## Files
 - `index.html` — page structure/content
