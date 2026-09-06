@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="ScriptShade — a modern visual enhancement tool for Roblox.">
+  <title>ScriptShade — Roblox, but better.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#">
+      <span class="brand-mark">S</span>
+      <span>Script<span>Shade</span></span>
+    </a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#download">Download</a>
+    </nav>
+    <a class="nav-button" href="#download">Get ScriptShade</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> BUILT FOR ROBLOX</div>
+        <h1>Roblox,<br><em>but better.</em></h1>
+        <p class="hero-text">
+          Give your Roblox games a cleaner, richer look with ScriptShade — just copy and paste.
+          Better color, atmosphere and depth — without changing the way you play.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">Download ScriptShade <span>→</span></a>
+          <a class="button secondary" href="#showcase">See the difference</a>
+        </div>
+        <div class="hero-meta">
+          <span>Windows 10/11</span>
+          <span>•</span>
+          <span>Free</span>
+          <span>•</span>
+          <span>Copy &amp; Paste</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="hero-card">
+          <img src="assets/showcase-1.png" alt="ScriptShade Roblox showcase">
+          <div class="image-label">
+            <span>LIVE PREVIEW</span>
+            <span>01 / 03</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div>COLOR</div><div>LIGHTING</div><div>DEPTH</div><div>CLARITY</div><div>ATMOSPHERE</div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">WHY SCRIPTSHADE</div>
+          <h2>Make your games<br><span>look the way they should.</span></h2>
+        </div>
+        <p>ScriptShade focuses on the details that make a Roblox scene feel more cinematic while keeping the experience simple.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card feature-large">
+          <div class="feature-number">01</div>
+          <div class="feature-icon">✦</div>
+          <h3>Richer visuals</h3>
+          <p>Bring out stronger colors, smoother contrast and a more polished overall image.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">02</div>
+          <div class="feature-icon">◉</div>
+          <h3>Easy to use</h3>
+          <p>Simple setup and presets. Spend less time configuring and more time playing.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">03</div>
+          <div class="feature-icon">◇</div>
+          <h3>Preset-ready</h3>
+          <p>Switch between different looks and find the style that fits your game.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-number">04</div>
+          <div class="feature-icon">↗</div>
+          <h3>Made for Windows</h3>
+          <p>Designed around the desktop Roblox experience on modern Windows PCs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="showcase" class="section showcase">
+      <div class="section-heading centered">
+        <div class="eyebrow">THE DIFFERENCE</div>
+        <h2>See ScriptShade<br><span>in action.</span></h2>
+        <p>Three scenes. One goal: make Roblox look incredible.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-main">
+          <img src="assets/showcase-1.png" alt="ScriptShade bright Roblox scene">
+          <figcaption><span>01</span> Bright &amp; vibrant</figcaption>
+        </figure>
+        <div class="gallery-side">
+          <figure>
+            <img src="assets/showcase-2.png" alt="ScriptShade dark Roblox scene">
+            <figcaption><span>02</span> Deep atmosphere</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/showcase-3.png" alt="ScriptShade open Roblox scene">
+            <figcaption><span>03</span> Clean &amp; cinematic</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <p>Stop settling for flat. <strong>Shade your Roblox.</strong></p>
+    </section>
+
+    <section id="download" class="download-section">
+      <div class="download-card copy-card">
+        <div class="copy-heading">
+          <div class="eyebrow">READY TO SHADE?</div>
+          <h2>Copy. Paste. <span>Shade.</span></h2>
+          <p>No installer. No setup. Just copy the ScriptShade loader and paste it into your Roblox script environment.</p>
+        </div>
+
+        <div class="script-box">
+          <div class="script-top">
+            <span><i></i><i></i><i></i></span>
+            <span class="lua-label">LUA</span>
+          </div>
+          <code id="scriptCode">loadstring(game:HttpGet("YOUR_SCRIPT_URL"))()</code>
+          <button id="copyScript" class="button primary copy-button" type="button">
+            Copy Script <span>⧉</span>
+          </button>
+        </div>
+      </div>
+      <p class="small-note">ScriptShade is an independent project and is not affiliated with Roblox Corporation.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span class="brand-mark">S</span><span>Script<span>Shade</span></span></div>
+    <p>© 2026 ScriptShade. Built for Roblox players.</p>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">Discord</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
